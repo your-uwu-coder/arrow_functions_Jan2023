@@ -8,6 +8,6 @@ document.getElementById("hover-this").onmouseout = () => setBackgroundColorById(
 
 const getValueFromId = (id) => document.getElementById(id).value;
 
-const setBackgroundColorById = (id, color) => document.getElementById(id).style = "background-color: pink" + color;
+const setBackgroundColorById = (id, color) => document.getElementById(id).style = "background-color:" + color;
 
 const mouseOverFunction = (el) => el.style = "background-color: black";
